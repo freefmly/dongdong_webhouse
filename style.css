@@ -1,0 +1,146 @@
+a:link,
+a:visited,
+a:active,
+a:hover {
+  color: #222222;
+  text-decoration: none;
+}
+
+body {
+  font-family: 나눔고딕;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 35px;
+  padding-top: 5px;
+}
+h2 {
+  font-size: 30px;
+  padding-top: 5px;
+}
+h3 {
+  font-size: 25px;
+  padding-top: 5px;
+}
+h4 {
+  font-size: 20px;
+  padding-top: 5px;
+}
+h5 {
+  font-size: 18px;
+  padding-top: 5px;
+}
+h6 {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+li {
+  padding-bottom: 8px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.topmenubar {
+  display: flex;
+}
+
+.topmenu {
+  margin: 5px;
+  margin-right: 10px;
+}
+
+.page {
+  padding-left: 20px;
+  padding-right: 50px;
+  max-width: 1000px;
+}
+
+.container {
+  float: left;
+}
+
+.content {
+  color: #5c5c5c;
+  padding-left: 10px;
+  line-height: 28px;
+}
+
+.google_search {
+  margin-top: 70px;
+}
+
+.google_search .google_logo {
+  padding-top: 5px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.search_form {
+  padding: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.search_input {
+  padding: 5px;
+  margin-right: 5px;
+  height: 18px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.search_input:focus {
+  outline: none;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: -1px 2px 7px -2px rgba(0, 0, 0, 0.34);
+  box-shadow: -1px 2px 7px -2px rgba(0, 0, 0, 0.34);
+}
+
+.search_btn {
+  padding: 5px 8px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.warning {
+  color: red;
+  font-weight: 1000;
+}
+
+.important {
+  font-weight: 500;
+}
+
+.booktitle {
+  text-align: left;
+}
+
+.favorite {
+  padding-bottom: 7px;
+}
