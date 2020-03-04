@@ -90,12 +90,15 @@ td {
   float: left;
 }
 
+.dday {
+  text-align: center;
+}
+
 .content {
   color: crimson;
   margin-top: 60px;
   padding-left: 10px;
   line-height: 28px;
-  text-align: center;
 }
 
 .google_search {
