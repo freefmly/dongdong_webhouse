@@ -1,14 +1,20 @@
 a:link,
-a:visited,
-a:active,
-a:hover {
+a:visited {
   color: #222222;
   text-decoration: none;
 }
 
+a:hover {
+  color: rgb(255, 166, 0);
+}
+
+a:active {
+  color: rgb(184, 119, 0);
+}
+
 body {
   font-family: 나눔고딕;
-  padding: 10px;
+  padding: 10px 15px;
 }
 
 h1 {
@@ -30,10 +36,14 @@ h4 {
 h5 {
   font-size: 18px;
   padding-top: 5px;
+  margin-bottom: 15px;
 }
 h6 {
   font-size: 16px;
+  font-weight: 600;
   padding-top: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 li {
@@ -81,13 +91,15 @@ td {
 }
 
 .content {
-  color: #5c5c5c;
+  color: crimson;
+  margin-top: 60px;
   padding-left: 10px;
   line-height: 28px;
+  text-align: center;
 }
 
 .google_search {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .google_search .google_logo {
@@ -143,5 +155,15 @@ td {
 }
 
 .favorite {
-  padding-bottom: 7px;
+  font-size: 15.5px;
+  padding-bottom: 8px;
+}
+
+.we {
+  padding: 8px;
+  margin-bottom: 5px;
+  border: solid 1px rgb(221, 221, 221);
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px rgb(202, 202, 202);
 }
