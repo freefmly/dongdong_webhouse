@@ -92,11 +92,12 @@ td {
 
 .dday {
   text-align: center;
+  padding-top: 52px;
 }
 
 .content {
   color: crimson;
-  margin-top: 60px;
+  margin-top: 10px;
   padding-left: 10px;
   line-height: 28px;
 }
